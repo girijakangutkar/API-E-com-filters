@@ -1,0 +1,207 @@
+img {
+  height: 110px;
+  width: 120px;
+  align-content: center;
+  margin-top: auto;
+  float: left;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  float: right;
+}
+
+#img {
+  display: block;
+  margin-left: 6px;
+  margin-right: 0.3px;
+  float: left;
+  padding: 20px;
+  margin-top: 1px;
+}
+
+#mid {
+  padding-top: 5px;
+  text-align: left;
+  width: 800px;
+  height: fit-content;
+  margin-left: 180px;
+  padding-left: 40px;
+  text-align: justify;
+}
+
+.pr {
+  padding-top: 10px;
+  float: right;
+  top: 0;
+  z-index: 10;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+#btn {
+  background-color: #24a0ed;
+  border: none;
+  padding: 6px;
+  margin-top: 260px;
+  color: white;
+  font-weight: bold;
+  margin: 5px;
+  float: left;
+  font-size: 20px;
+}
+
+#hrt {
+  padding: 6px;
+  margin-top: 70px;
+  border: none;
+  margin: 5px;
+  float: left;
+  font-size: 20px;
+}
+
+#cont {
+  z-index: 10;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.slider {
+  padding: 10px;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+#rs1 {
+  margin-left: 30px;
+  position: relative;
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(52, 52, 52);
+}
+
+#rs2 {
+  margin-left: 30px;
+  padding-top: 30px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: rgb(52, 52, 52);
+}
+
+#min,
+#max {
+  margin: 10px;
+  color: aqua;
+}
+
+h3 {
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+#details {
+  float: right;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 18px;
+}
+
+.sidebar {
+  float: left;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* second drop down  */
+* {
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+.float-right {
+  float: right;
+}
+
+/* main title */
+.dropdown-check-list .anchor {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  width: 350px;
+  background-color: rgb(204, 204, 204);
+}
+
+.dropdown-check-list .anchor:after {
+  position: absolute;
+  content: "";
+  border-left: 2px solid black;
+  border-top: 2px solid rgb(0, 0, 0);
+  padding: 5px;
+  right: 10px;
+  top: 20%;
+  -moz-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+#star {
+  color: gold;
+  size: 14px;
+}
+.star {
+  color: #ccc; /* Set the color for empty stars */
+}
+
+.star.filled {
+  color: gold; /* Set the color for filled stars */
+}
+
+.star.half-filled {
+  position: relative;
+}
+
+.star.half-filled:after {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  width: 50%;
+}
+
+li {
+  padding: 12px;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.ip {
+  position: relative;
+  height: 15px;
+  width: 40px;
+  background-color: #eee;
+  margin: 7px;
+}
+
+.star.half-filled {
+  position: relative;
+  overflow: hidden;
+}
+
+.star.half-filled::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  overflow: hidden;
+  color: #ccc;
+}
